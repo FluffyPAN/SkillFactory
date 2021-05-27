@@ -1,5 +1,7 @@
 count = int(input("Введите количество билетов "))
 
+final_sum = 0
+
 for i in range (count):
     age = int(input("Введите возраст "))
     if age >= 18:
