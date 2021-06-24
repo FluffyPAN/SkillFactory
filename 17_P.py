@@ -66,5 +66,5 @@ borders = binary_search(output_list, input_number, 0, output_list.__len__() - 1)
 print("Отсортированый список", output_list)
 print("числа между которыми находистя число, заданое пользователем",
       output_list[borders[0]], output_list[borders[1]])
-print("позиция искомого числа", borders[0])
+print("позиция искомого числа", borders[0]) #borders[0]+1 если нужна пиозиция без 0 элемента
 
