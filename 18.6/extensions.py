@@ -3,11 +3,11 @@ import json
 from config import keys
 
 
-class ConversionException(Exception):
+class ConversionException(Exception):  # класс для отлова ошибок пользователя
     pass
 
 
-class CryptoConvertor:
+class CryptoConvertor:  # обработка ошибок и запрос с сайта
     @staticmethod
     def get_price(quote: str, base: str, amount: str):
         if quote == base:

@@ -1,4 +1,4 @@
-TOKEN = '1713213874:AAF5feHdzZtlz4qi-MrWvZTprx6iFNXYkYQ'
+TOKEN = '1713213874:AAF5feHdzZtlz4qi-MrWvZTprx6iFNXYkYQ'  # токен
 
 keys = {
     'биткоин': 'BTC',
@@ -6,4 +6,4 @@ keys = {
     'доллар': 'USD',
     'рубль': 'RUB',
     'евро': 'EUR'
-}
+}  # таблица с валютами
